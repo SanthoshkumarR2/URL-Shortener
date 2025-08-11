@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'https://santhosh-url-shortener-sable.vercel.app/';
+const API = 'https://santhosh-url-shortener.vercel.app';
 
 function App() {
   const [url, setUrl] = useState('');
