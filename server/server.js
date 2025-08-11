@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://santhosh-url-shortener.vercel.app",
+  origin: "https://santhosh-url-shortener-sable.vercel.app",
   credentials: true
 }));
 app.use(express.json());
