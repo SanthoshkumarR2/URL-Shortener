@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000';
+const API = 'https://url-shortener-backend-757t.onrender.com';
 
 function Admin() {
   const [stats, setStats] = useState({ totalUrls: 0, totalVisits: 0, urls: [] });
