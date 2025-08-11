@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'https://url-shortener-backend-nu-roan.vercel.app';
+const API = 'https://url-shortener-backend-757t.onrender.com';
 
 function App() {
   const [url, setUrl] = useState('');
